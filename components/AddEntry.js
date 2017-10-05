@@ -9,7 +9,7 @@ import DateHeader from './DateHeader'
 import TextButton from './TextButton'
 import { connect } from 'react-redux'
 import { addEntry } from '../actions'
-import { white, purple } from '../utils/color'
+import { white, purple } from '../utils/colors'
 
 function SubmitBtn({onPress}) {
   return (
